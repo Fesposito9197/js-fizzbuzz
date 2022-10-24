@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #083b4c;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.container{
+    max-width: 62.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin: 0 auto;
+}
+.cell-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.number-cell{
+    margin: 10px;
+    text-align: center;
+    width: calc((100% / 10) - 10px);
+    height: 86px;
+    line-height: 86px;
+    font-size: 1.4rem;
+    background-color: #1389b2;
+    
+}
+.number-cell-fizz-buzz{
+    background-color: #f0466f;
+}
+.number-cell-fizz{
+    background-color: #0cd6a1;
+}
+.number-cell-buzz{
+    background-color:#ffd166 ;
+}
