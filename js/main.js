@@ -18,7 +18,7 @@ for( let i = 1 ; i <= 100; i++){
         console.log("Fizz")
     } else if( i % 5 ===0){
         numberCell.innerHTML = "Buzz"
-        numberCell.classList.add('numbner-cell-buzz')
+        numberCell.classList.add('number-cell-buzz')
         console.log('Buzz')
     }else{
         numberCell.innerHTML = i
